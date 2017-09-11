@@ -1,2 +1,2 @@
-# https://prashantchamoli05.github.io/
+prashantchamoli.me
 My personal website
