@@ -12,7 +12,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="icon" href="/pics/pic.JPG" type="image/jpg" sizes ="16x16">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Google Fonts  -->
@@ -51,7 +52,7 @@
 <header>
 <div class="container-fluid"style="text-align:center;margin-top:50px;">
 <img class="img-circle center-block"style="" src="/pics/pic.JPG" alt="Prashant Chamoli">
-<p style="text-align:center;font-size:4em;margin-top:80px;font-family:'Alegreya';">
+<span id="typed" style="text-align:center;font-size:4em;margin-top:80px;font-family:'Alegreya';">
 Web Developer</p> 
 <a href="https://drive.google.com/open?id=0B3YPjrhhcsmGUjU2NUpLQ2dvNG8"><button type="button" class="cvbtn">
 <span class="glyphicon glyphicon-file"style="padding-top:5px;margin-right:8px;font-size:24px;"></span><strong>Download CV</strong>
@@ -117,5 +118,14 @@ All&nbsp;my&nbsp;Project&nbsp;Code&nbsp;is&nbsp;present&nbsp;on&nbsp;GitHub.&nbs
 </div>
 </footer>
 
- </body>
+ <script>
+var typed = new Typed("#typed", {
+  strings: ["Programmer.^1000 ", "Developer.^1000","Designer.^1000","Programmer, Developer, and Designer." ],
+typeSpeed:130,
+startDelay:700,
+backSpeed:40
+});
+</script>
+
+</body>
 </html>
