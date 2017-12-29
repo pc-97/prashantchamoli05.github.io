@@ -1,3 +1,3 @@
-www.prashantchamoli.me
+www.prashantchamoli.tech
 
 My personal website
