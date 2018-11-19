@@ -1,3 +1,3 @@
-www.prashantchamoli.tech
+https://prashantchamoli05.github.io/
 
 My personal website
